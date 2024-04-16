@@ -159,7 +159,7 @@
   align-items: center;
   height: 90vh;
   margin-top: 20px;
-  padding: 40px 100px 40px 140px;
+  padding: 40px 100px;
   display: flex;
 }
 
@@ -171,6 +171,10 @@
   color: var(--black);
   font-family: Kavoon, sans-serif;
   font-size: 16px;
+}
+
+.p1.first {
+  margin-bottom: 10px;
 }
 
 .about-image {
@@ -404,6 +408,10 @@
   color: var(--white);
   text-align: center;
   font-family: Kavoon, sans-serif;
+}
+
+.h3.title {
+  margin-bottom: 20px;
 }
 
 .image-9 {
