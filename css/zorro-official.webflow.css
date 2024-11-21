@@ -10,18 +10,21 @@
 }
 
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('../images/Frame-128.jpg');
+  background-image: linear-gradient(#0003, #0003), url("https://cdn.prod.website-files.com/660bb547357b6f3b8e7fdb20/660bb7a312d24cc262194703_Frame%20128.jpg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
-  height: 90vh;
+  background-attachment: scroll, fixed;
+  flex-flow: column;
+  justify-content: flex-start;
+  height: auto;
   padding-left: 100px;
   padding-right: 100px;
   display: flex;
 }
 
 .wanted-poster {
-  background-image: url('../images/Artboard-54x.png');
+  background-image: url("https://cdn.prod.website-files.com/660bb547357b6f3b8e7fdb20/660bbbb3375dab4be706be51_Artboard%205%404x.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -151,7 +154,7 @@
 .about-content {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  background-image: url('../images/Asset-1.png');
+  background-image: url("https://cdn.prod.website-files.com/660bb547357b6f3b8e7fdb20/660bb66d16b588c6cee15c4e_Asset%201.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -213,7 +216,7 @@
 .tweet {
   grid-column-gap: 40px;
   grid-row-gap: 40px;
-  background-image: url('../images/OBJECTS.png'), url('../images/OBJECTS-1.png');
+  background-image: url("https://cdn.prod.website-files.com/660bb547357b6f3b8e7fdb20/660bb806e29efc201ce7f107_OBJECTS.png"), url("https://cdn.prod.website-files.com/660bb547357b6f3b8e7fdb20/660bb8043d2aa9315ed75d95_OBJECTS-1.png");
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat, no-repeat;
   background-size: 200px, 200px;
@@ -244,7 +247,7 @@
 .how-to-buy {
   grid-column-gap: 400px;
   grid-row-gap: 400px;
-  background-image: url('../images/Zorro-cut.png');
+  background-image: url("https://cdn.prod.website-files.com/660bb547357b6f3b8e7fdb20/660bc417a98aae5f21cc42ac_Zorro%20cut.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 400px;
@@ -311,10 +314,7 @@
 .image-7 {
   width: 400px;
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: auto;
+  inset: auto auto 0% 0%;
 }
 
 .tabs-menu {
@@ -329,7 +329,7 @@
 
 .tab {
   text-align: center;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   width: 20%;
   font-family: Kavoon, sans-serif;
   font-size: 20px;
@@ -444,7 +444,7 @@
 }
 
 .div-block-6 {
-  background-image: url('../images/Asset-2.svg');
+  background-image: url("https://cdn.prod.website-files.com/660bb547357b6f3b8e7fdb20/660be9263f06ec663e3b7837_Asset%202.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -486,7 +486,7 @@
 }
 
 .section {
-  background-image: url('../images/Zorro1.png');
+  background-image: url("https://cdn.prod.website-files.com/660bb547357b6f3b8e7fdb20/660bb6c112d24cc262188a66_Zorro1.png");
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -528,6 +528,16 @@
   flex-flow: column;
   justify-content: center;
   align-items: flex-end;
+  display: flex;
+}
+
+.section-3 {
+  flex: 1;
+  margin-top: 100px;
+}
+
+.hero-side-by-side {
+  margin-top: 20px;
   display: flex;
 }
 
@@ -827,16 +837,16 @@
   }
 
   .navbar {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0000;
   }
 
   .menu-button {
     color: var(--white);
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0000;
   }
 
   .menu-button.w--open {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0000;
   }
 
   .nav-menu {
@@ -846,19 +856,22 @@
   .nav-link, .nav-link-2, .nav-link-3, .nav-link-4, .nav-link-5 {
     font-family: Kavoon, sans-serif;
   }
-}
 
+  .hero-side-by-side {
+    flex-flow: column;
+  }
+}
 
 @font-face {
   font-family: 'Luminari';
-  src: url('../fonts/Luminari-Regular.ttf') format('truetype');
+  src: url('https://cdn.prod.website-files.com/660bb547357b6f3b8e7fdb20/660bb84bd7e844750555aff8_Luminari-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Kavoon';
-  src: url('../fonts/Kavoon-Regular.ttf') format('truetype');
+  src: url('https://cdn.prod.website-files.com/660bb547357b6f3b8e7fdb20/660bb84cbc7ef434f6cd9705_Kavoon-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
